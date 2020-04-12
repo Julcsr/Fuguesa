@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Registrar"
+        android:textSize="30sp" />
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/tw_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:" />
+
+        <EditText
+            android:textSize="18sp"
+            android:id="@+id/e_primernombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tw_nombre"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Primer nombre" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/tv_apellidopaterno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido paterno:" />
+        <EditText
+            android:id="@+id/e_apellidopaterno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Apellido paterno" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_apellidomaterno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido materno:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/e_apellidomaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Apellido materno"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfono:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/e_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Teléfono"
+            android:digits="1234567890"
+            android:inputType="number|textPersonName"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/e_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:digits="1234567890"
+            android:hint="Número de DNI"
+            android:inputType="number|textPersonName"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_contraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:digits="1234567890"
+            android:id="@+id/e_contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPersonName|numberPassword"/>
+    </LinearLayout>
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:background="@drawable/press_button_ovalo"
+        android:layout_gravity="center"
+        android:id="@+id/b_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Registrarse  "
+        android:textColor="@color/blanco"
+        android:textStyle="bold" />
+</LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+android:background="@drawable/boton_margen"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c_producto"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boton_margen">
+        <LinearLayout
+            android:background="@drawable/boton_margen"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/t_producto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="  Producto: "
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/t_nproducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/i_producto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/images" />
+
+
+                <Button
+
+                    android:id="@+id/b_mostrar"
+                    android:layout_width="46dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/boton_margen"
+                    android:enabled="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/b_aumentar"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="+"
+                    android:gravity="center"
+                    android:textColor="@color/blanco"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/press_button_ovalo"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b_reducir"
+                    android:layout_width="25dp"
+                    android:text="-"
+
+                    android:textColor="@color/blanco"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/press_button_ovalo"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/b_carrito"
+                    android:layout_width="73dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/press_button_ovalo"
+                    android:gravity="center|center_horizontal|center_vertical|end"
+                    android:text="Agregar al carrito"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="10sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

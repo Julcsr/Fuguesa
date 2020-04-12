@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "398231683694",
+    "firebase_url": "https://fuguesa-af388.firebaseio.com",
+    "project_id": "fuguesa-af388",
+    "storage_bucket": "fuguesa-af388.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398231683694:android:4503e2d842d0f0eadf1c7f",
+        "android_client_info": {
+          "package_name": "com.example.demofuguesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398231683694-eq2sf72uj3l8juk23gvkm60j1lp7k2if.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.demofuguesa",
+            "certificate_hash": "e9bf5dfebea8eb47445e1d112d73dd017d71b326"
+          }
+        },
+        {
+          "client_id": "398231683694-6ri8b8bsos2nds8fa0im1tb8j041rvo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfYjO-GTDRx1vzh70hGTziJyEKVCnF-uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398231683694-6ri8b8bsos2nds8fa0im1tb8j041rvo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398231683694:android:17768a4e12cca08bdf1c7f",
+        "android_client_info": {
+          "package_name": "com.example.fuguesasac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398231683694-hm722i118kl9j83eeeuh3915afm1pp26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fuguesasac",
+            "certificate_hash": "e9bf5dfebea8eb47445e1d112d73dd017d71b326"
+          }
+        },
+        {
+          "client_id": "398231683694-6ri8b8bsos2nds8fa0im1tb8j041rvo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfYjO-GTDRx1vzh70hGTziJyEKVCnF-uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398231683694-6ri8b8bsos2nds8fa0im1tb8j041rvo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398231683694:android:a84719619d507149df1c7f",
+        "android_client_info": {
+          "package_name": "com.julio.fuguesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398231683694-jilutp0032470tb1jiieltj49fm6t58v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.julio.fuguesa",
+            "certificate_hash": "e9bf5dfebea8eb47445e1d112d73dd017d71b326"
+          }
+        },
+        {
+          "client_id": "398231683694-6ri8b8bsos2nds8fa0im1tb8j041rvo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfYjO-GTDRx1vzh70hGTziJyEKVCnF-uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398231683694-6ri8b8bsos2nds8fa0im1tb8j041rvo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

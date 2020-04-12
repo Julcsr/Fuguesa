@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fuguesa</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="saludo">Bienvenido</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="Producto">Producto:</string>
+    <string name="Agregar_al_carro">Agregar al carro</string>
+    <string name="Articulo">Artículo</string>
+    <string name="ver_carrito">Ver carrito</string>
+    <string name="Suma">+</string>
+    <string name="resta">-</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="precio_unitario">Precio unit</string>
+    <string name="monto">Monto</string>
+    <string name="monto_total">Monto Total</string>
+    <string name="enviar_pedido">Enviar pedido</string>
+
+</resources>

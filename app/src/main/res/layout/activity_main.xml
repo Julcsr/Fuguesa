@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <EditText
+      android:id="@+id/nombre"
+      android:hint="nombre"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+  </EditText>
+    <EditText
+        android:id="@+id/dni"
+        android:hint="dni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:id="@+id/apellido1"
+        android:hint="ap1 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/apellido2"
+        android:hint="ap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/numero"
+        android:hint="numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>

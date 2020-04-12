@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layoutovalado"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/azul_600"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blanco"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Solicitud de acceso a cliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:digits="1234567890"
+            android:layout_marginTop="8dp"
+            android:id="@+id/e_contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/contraseña"
+            android:inputType="numberPassword"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanco"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/b_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/blanco"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/press_button_ovalo"
+            android:text="Cancelar"
+            android:textSize="12sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/b_aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:textColor="@color/blanco"
+            android:background="@drawable/press_button_ovalo"
+            android:text="Aceptar"
+            android:textSize="12sp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
